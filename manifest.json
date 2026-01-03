@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Scrolling speed for youtube",
+  "version": "1.0",
+  "description": "Adds a scrolling speed option",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/watch*"
+      ],
+      "js": [
+        "speedify.js"
+      ]
+    }
+  ]
+}
