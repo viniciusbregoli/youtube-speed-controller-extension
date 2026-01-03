@@ -1,5 +1,15 @@
 {
-  "manifest_version": 3,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "speedify@yourdomain.com",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
+  "manifest_version": 2,
   "name": "Scrolling speed for youtube",
   "version": "1.0",
   "description": "Adds a scrolling speed option",
