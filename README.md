@@ -8,7 +8,7 @@ The screenshot shows the extension running on a local test page that mimics YouT
 
 ## Controls
 
-The indicator shows the current speed (for example `1.25 x`) to the left of the player's right-side buttons.
+The indicator shows the speed set through it (for example `1.25 x`) to the left of the player's right-side buttons. It does not follow changes made from YouTube's own settings menu.
 
 - Scroll up over the indicator: speed +0.05
 - Scroll down over the indicator: speed -0.05
@@ -30,7 +30,7 @@ Temporary add-ons are removed when Firefox closes.
 1. Open `chrome://extensions` and turn on **Developer mode**.
 2. Click **Load unpacked** and select this folder.
 
-The extension uses Manifest V2. Chrome has phased out Manifest V2, so recent Chrome versions may refuse to load it; Firefox and Chromium builds that still accept Manifest V2 work.
+The extension uses Manifest V2, which current Chrome no longer runs (Chrome 138 was the last version with Manifest V2 support). Use Firefox, or a Chromium browser that still accepts Manifest V2.
 
 ## Notes
 
